@@ -1,0 +1,49 @@
+nav {
+    border-bottom: 2px solid #fff;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.img-fluid {
+    margin-top: 90px;
+    width: 10000px;
+}
+
+.d-sm-flex h1 {
+    font-size: 70px;
+}
+
+section .bg-dark {
+    padding: 40px 0;
+}
+
+.padding {
+    padding: 9rem 0;
+}
+.d-sm-flex {
+    padding: 1rem 0!important;
+}
+
+.news-input {
+    width: 50%;
+}
+
+
+@media screen and (max-width: 560px) {
+    .container h1 {
+        font-size: 40px;
+        padding-left: 0;
+        padding-right: 0;
+    } 
+}   
+
+@media screen and (max-width: 768px) {
+    .news-input {
+        width: 100%;
+    }
+}
+
